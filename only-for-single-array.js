@@ -4,7 +4,7 @@ const input = [
     [4, 2, 1, 6, 8, 7],
     // [5,8,3,4,6,1,7,0]
 ]
-
+// Working for single array only.
 function sum(n1, n2, cb) {
     setTimeout(function () {
         cb(n1 + n2)
